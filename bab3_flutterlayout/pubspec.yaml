@@ -1,0 +1,56 @@
+name: bab3_flutterlayout
+description: A new Flutter project.
+
+publish_to:
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/submarine.jpg
+    - assets/images/monkasel_1.jpg
+    - assets/images/monkasel_2.jpg
+    - assets/images/monkasel_3.jpg
+    - assets/images/klenteng.jpg
+    - assets/images/pahlawan.jpg
+    - assets/images/sampoerna.jpg
+    - assets/images/suroboyo.jpg
+    - assets/images/klenteng2.jpg
+    - assets/images/klenteng3.jpeg
+    - assets/images/pahlawan2.jpg
+    - assets/images/pahlawan3.jpg
+    - assets/images/sampoerna2.jpg
+    - assets/images/sampoerna3.jpg
+    - assets/images/suroboyo2.jpg
+    - assets/images/suroboyo3.jpg
+    - assets/images/kbs.jpg
+    - assets/images/kbs2.jpg
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen-Bold.ttf
+          weight: 700
